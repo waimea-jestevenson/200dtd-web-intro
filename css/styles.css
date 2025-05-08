@@ -33,3 +33,17 @@ section#likes article {
     flex: 1;
     min-width: 15rem;
 }
+
+/*demo*/
+section.demo div{
+    display:flex;
+    gap: 1rem;
+    background-color: #6666;
+    padding: 1rem
+}
+
+section.demo div p{
+    font-size: 5rem;
+    background-color: hotpink;
+    padding: 1rem
+}
