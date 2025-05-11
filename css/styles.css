@@ -39,11 +39,46 @@ section.demo div{
     display:flex;
     gap: 1rem;
     background-color: #6666;
-    padding: 1rem
+    padding: 1rem;
+border-radius: 1 rem;
+height: 15rem
 }
 
 section.demo div p{
     font-size: 5rem;
     background-color: hotpink;
-    padding: 1rem
+    padding: 1rem;
+    border-radius: 0.5rem;
+    line-height: 1;
+    width: 1.2em;
+    margin:0;
+    text-align:center;
+}
+section#task2.demo div{
+    justify-content: center;
+}
+
+section#task3.demo div{
+    justify-content: space-evenly;
+}
+
+section#task4.demo div{
+    justify-content: right;
+}
+
+section#task5.demo div{
+   align-self: flex-start;
+}
+section#task6.demo div{
+    align-self: flex-end;
+}
+
+section#task7.demo div{
+    justify-content:space-around;
+}
+section#task8.demo div{
+    justify-content: space-evenly
+}
+section#task9.demo div{
+    flex-wrap: wrap;
 }
