@@ -46,7 +46,7 @@ height: 15rem
 
 section.demo div p{
     font-size: 5rem;
-    background-color: hotpink;
+    background-color: blueviolet;
     padding: 1rem;
     border-radius: 0.5rem;
     line-height: 1;
@@ -67,10 +67,10 @@ section#task4.demo div{
 }
 
 section#task5.demo div{
-   align-self: flex-start;
+   align-items: flex-start;
 }
 section#task6.demo div{
-    align-self: flex-end;
+    align-items: flex-end;
 }
 
 section#task7.demo div{
